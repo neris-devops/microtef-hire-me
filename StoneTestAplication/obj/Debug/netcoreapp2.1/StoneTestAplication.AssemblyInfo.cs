@@ -12,13 +12,17 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Stone.Integration.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" +
-    "", "E:\\Stone\\Stone.Integration.Business", "Stone.Integration.Business.csproj", "0")]
+    "", "C:\\Users\\neris\\Source\\Repos\\stone-payments\\microtef-hire-me\\Stone.Integration.Bus" +
+    "iness", "Stone.Integration.Business.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Stone.Integration.BusinessEntities, Version=1.0.0.0, Culture=neutral, PublicKeyTo" +
-    "ken=null", "E:\\Stone\\Stone.Integration.BusinessEntities", "Stone.Integration.BusinessEntities.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Stone.Integration.Others, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\Stone\\Stone.Integration.Others", "Stone.Integration.Others.csproj", "0")]
+    "ken=null", "C:\\Users\\neris\\Source\\Repos\\stone-payments\\microtef-hire-me\\Stone.Integration.Bus" +
+    "inessEntities", "Stone.Integration.BusinessEntities.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Stone.Integration.Others, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\neris\\Source\\Repos\\stone-payments\\microtef-hire-me\\Stone.Integration.Oth" +
+    "ers", "Stone.Integration.Others.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Stone.Integration.Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
-    "ll", "E:\\Stone\\Stone.Integration.Repository", "Stone.Integration.Repository.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("StoneWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\Stone\\StoneWebApi", "StoneWebApi.csproj", "0")]
+    "ll", "C:\\Users\\neris\\Source\\Repos\\stone-payments\\microtef-hire-me\\Stone.Integration.Rep" +
+    "ository", "Stone.Integration.Repository.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("StoneWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\neris\\Source\\Repos\\stone-payments\\microtef-hire-me\\StoneWebApi", "StoneWebApi.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoneTestAplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
