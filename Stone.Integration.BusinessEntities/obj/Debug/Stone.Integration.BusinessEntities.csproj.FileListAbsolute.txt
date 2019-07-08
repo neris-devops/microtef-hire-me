@@ -1,0 +1,8 @@
+E:\Stone\Stone.Integration.BusinessEntities\bin\Debug\Stone.Integration.BusinessEntities.dll
+E:\Stone\Stone.Integration.BusinessEntities\bin\Debug\Stone.Integration.BusinessEntities.pdb
+E:\Stone\Stone.Integration.BusinessEntities\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Stone\Stone.Integration.BusinessEntities\bin\Debug\System.ComponentModel.Annotations.xml
+E:\Stone\Stone.Integration.BusinessEntities\obj\Debug\Stone.Integration.BusinessEntities.csproj.CoreCompileInputs.cache
+E:\Stone\Stone.Integration.BusinessEntities\obj\Debug\Stone.Integration.BusinessEntities.csproj.CopyComplete
+E:\Stone\Stone.Integration.BusinessEntities\obj\Debug\Stone.Integration.BusinessEntities.dll
+E:\Stone\Stone.Integration.BusinessEntities\obj\Debug\Stone.Integration.BusinessEntities.pdb

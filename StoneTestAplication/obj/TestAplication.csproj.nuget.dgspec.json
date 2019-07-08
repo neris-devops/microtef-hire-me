@@ -1,0 +1,240 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Triscal\\Projeto\\Icatu\\TestAplication\\TestAplication.csproj": {}
+  },
+  "projects": {
+    "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj",
+        "projectName": "Icatu.Integration.BusinessEntities",
+        "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj": {
+                "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Business\\Icatu.Integration.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Business\\Icatu.Integration.Business.csproj",
+        "projectName": "Icatu.Integration.Business",
+        "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Business\\Icatu.Integration.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj": {
+                "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj"
+              },
+              "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Repository\\Icatu.Integration.Repository.csproj": {
+                "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Repository\\Icatu.Integration.Repository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj",
+        "projectName": "Icatu.Integration.Others",
+        "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Others\\Icatu.Integration.Others.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Repository\\Icatu.Integration.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Repository\\Icatu.Integration.Repository.csproj",
+        "projectName": "Icatu.Integration.Repository",
+        "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Repository\\Icatu.Integration.Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj": {
+                "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.BusinessEntities\\Icatu.Integration.BusinessEntities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Triscal\\Projeto\\Icatu\\IcatuWebApi\\IcatuWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Triscal\\Projeto\\Icatu\\IcatuWebApi\\IcatuWebApi.csproj",
+        "projectName": "IcatuWebApi",
+        "projectPath": "E:\\Triscal\\Projeto\\Icatu\\IcatuWebApi\\IcatuWebApi.csproj",
+        "packagesPath": "C:\\Users\\neris\\.nuget\\packages\\",
+        "outputPath": "E:\\Triscal\\Projeto\\Icatu\\IcatuWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Business\\Icatu.Integration.Business.csproj": {
+                "projectPath": "E:\\Triscal\\Projeto\\Icatu\\Icatu.Integration.Business\\Icatu.Integration.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Triscal\\Projeto\\Icatu\\TestAplication\\TestAplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Triscal\\Projeto\\Icatu\\TestAplication\\TestAplication.csproj",
+        "projectName": "TestAplication",
+        "projectPath": "E:\\Triscal\\Projeto\\Icatu\\TestAplication\\TestAplication.csproj",
+        "packagesPath": "C:\\Users\\neris\\.nuget\\packages\\",
+        "outputPath": "E:\\Triscal\\Projeto\\Icatu\\TestAplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Triscal\\Projeto\\Icatu\\IcatuWebApi\\IcatuWebApi.csproj": {
+                "projectPath": "E:\\Triscal\\Projeto\\Icatu\\IcatuWebApi\\IcatuWebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[2.1.3, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

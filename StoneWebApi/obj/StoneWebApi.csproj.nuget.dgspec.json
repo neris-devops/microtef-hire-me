@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Stone\\StoneWebApi\\StoneWebApi.csproj": {}
+  },
+  "projects": {
+    "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj",
+        "projectName": "Stone.Integration.BusinessEntities",
+        "projectPath": "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Stone\\Stone.Integration.Business\\Stone.Integration.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Stone\\Stone.Integration.Business\\Stone.Integration.Business.csproj",
+        "projectName": "Stone.Integration.Business",
+        "projectPath": "E:\\Stone\\Stone.Integration.Business\\Stone.Integration.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj": {
+                "projectPath": "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj"
+              },
+              "E:\\Stone\\Stone.Integration.Repository\\Stone.Integration.Repository.csproj": {
+                "projectPath": "E:\\Stone\\Stone.Integration.Repository\\Stone.Integration.Repository.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Stone\\Stone.Integration.Others\\Stone.Integration.Others.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Stone\\Stone.Integration.Others\\Stone.Integration.Others.csproj",
+        "projectName": "Stone.Integration.Others",
+        "projectPath": "E:\\Stone\\Stone.Integration.Others\\Stone.Integration.Others.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Stone\\Stone.Integration.Repository\\Stone.Integration.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Stone\\Stone.Integration.Repository\\Stone.Integration.Repository.csproj",
+        "projectName": "Stone.Integration.Repository",
+        "projectPath": "E:\\Stone\\Stone.Integration.Repository\\Stone.Integration.Repository.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj": {
+                "projectPath": "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj"
+              },
+              "E:\\Stone\\Stone.Integration.Others\\Stone.Integration.Others.csproj": {
+                "projectPath": "E:\\Stone\\Stone.Integration.Others\\Stone.Integration.Others.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\Stone\\StoneWebApi\\StoneWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Stone\\StoneWebApi\\StoneWebApi.csproj",
+        "projectName": "StoneWebApi",
+        "projectPath": "E:\\Stone\\StoneWebApi\\StoneWebApi.csproj",
+        "packagesPath": "C:\\Users\\neris\\.nuget\\packages\\",
+        "outputPath": "E:\\Stone\\StoneWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\neris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj": {
+                "projectPath": "E:\\Stone\\Stone.Integration.BusinessEntities\\Stone.Integration.BusinessEntities.csproj"
+              },
+              "E:\\Stone\\Stone.Integration.Business\\Stone.Integration.Business.csproj": {
+                "projectPath": "E:\\Stone\\Stone.Integration.Business\\Stone.Integration.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
